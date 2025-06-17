@@ -1,0 +1,14 @@
+python naloga3.py --slika .utils/zelenjave.jpg --alg kmeans --k 3 --dim 3 --iter 10 --T 30
+
+python naloga3.py --slika .utils/zelenjave.jpg --alg kmeans --k 4 --dim 5 --iter 10 --T 50
+
+python naloga3.py --slika .utils/zelenjave.jpg --alg kmeans --k 5 --dim 5 --iter 10 --T 50
+
+
+
+
+python naloga3.py --slika .utils/zelenjave.jpg --alg meanshift --h 10 --dim 3 --iter 10 --min_cd 15
+
+python naloga3.py --slika .utils/zelenjave.jpg --alg meanshift --h 20 --dim 5 --iter 10 --min_cd 20
+
+python naloga3.py --slika .utils/zelenjave.jpg --alg meanshift --h 30 --dim 5 --iter 10 --min_cd 25
